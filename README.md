@@ -1,30 +1,15 @@
-MFRC522-python
+boxOS
 ==============
 
-A small class to interface with the NFC reader Module MFRC522 on the Raspberry Pi.
+Python files to run MakerBox badging system. Database must be set up manually and settings will depend on local network.
 
-This is a Python port of the example code for the NFC module MF522-AN.
+If there are any bugs or suggestions please contact Christian Ouellette at clo006@bucknell.edu
 
 ##Requirements
-This code requires you to have SPI-Py installed from the following repository:
-https://github.com/lthiery/SPI-Py
-
-##Examples
-This repository includes a couple of examples showing how to read, write, and dump data from a chip. They are thoroughly commented, and should be easy to understand.
-
-## Pins
-You can use [this](http://i.imgur.com/y7Fnvhq.png) image for reference.
-
-| Name | Pin # | Pin name   |
-|------|-------|------------|
-| SDA  | 24    | GPIO8      |
-| SCK  | 23    | GPIO11     |
-| MOSI | 19    | GPIO10     |
-| MISO | 21    | GPIO9      |
-| IRQ  | None  | None       |
-| GND  | Any   | Any Ground |
-| RST  | 22    | GPIO25     |
-| 3.3V | 1     | 3V3        |
+Requires several Python libraries and Pi libraries in order to function. Detailed in "Setting up Software" guide.
 
 ##Usage
-Import the class by importing MFRC522 in the top of your script. For more info see the examples.
+Requires MakerBox in order to function properly. Contact Bucknell University Department of Electrical and Computer Engineering for details.
+
+##Acknowledgements
+Software developed by Makerspace Design Team
